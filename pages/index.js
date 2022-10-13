@@ -77,19 +77,16 @@ function Index() {
         </Box>
         <Box
           position="absolute"
-          sx={{
-            backgroundColor: "#c8a97e",
+          sx={{            
             marginTop: "-30px",
-            borderRadius: "10px",
           }}
-          left={{
-            xs: "20%",
-            md: "40%",
-          }}
+          mx="auto"          
         >
           <Typography
             align="center"
             sx={{
+              backgroundColor: "#c8a97e",
+              borderRadius: "10px",
               typography: {
                 xs: "h6",
                 md: "h4",
@@ -98,9 +95,27 @@ function Index() {
             p={1}
             color="#222"
           >
-            Apartemen Modern
-          </Typography>
+            Apartemen Modern</Typography>
         </Box>
+        <Typography
+            align="center"
+            sx={{
+              typography: {
+                xs: "h6",
+                md: "h5",
+              },
+              color: "#fff",
+              bgcolor: "#ff6a00",
+              maxWidth: "200px",
+              borderRadius: "15px"
+            }}
+            mt={4}
+            mx="auto"
+            p={1}
+            color="#222"
+
+          >
+            Harga 600jt an</Typography>
         <Box p={1}>
           <Container
             sx={{

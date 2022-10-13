@@ -13,11 +13,18 @@ import React from "react";
 function Unit() {
   return (
     <Box mt={4}>
-      <Grid container spacing={2} alignContent="center" sx={{
-        maxWidth: {
+      <Grid
+        container
+        spacing={2}
+        alignContent="center"
+        sx={{
+          maxWidth: {
             xs: "100%",
             md: "80%",
-        }}}>
+          },
+          margin: "auto",
+        }}
+      >
         <Grid item xs={12} md={4}>
           <Card>
             <CardActionArea>
@@ -38,7 +45,7 @@ function Unit() {
               </CardContent>
             </CardActionArea>
           </Card>
-        </Grid>           
+        </Grid>
         <Grid item xs={12} md={4}>
           <Card>
             <CardActionArea>
@@ -54,12 +61,12 @@ function Unit() {
                   1 Room
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                41.90 - 43.16 m<sup>2</sup>  (Semi Gross Area)
+                  41.90 - 43.16 m<sup>2</sup> (Semi Gross Area)
                 </Typography>
               </CardContent>
             </CardActionArea>
           </Card>
-        </Grid>  
+        </Grid>
         <Grid item xs={12} md={4}>
           <Card>
             <CardActionArea>
@@ -75,7 +82,7 @@ function Unit() {
                   2 Room
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                59.80 - 63.98 m<sup>2</sup>  (Semi Gross Area)
+                  59.80 - 63.98 m<sup>2</sup> (Semi Gross Area)
                 </Typography>
               </CardContent>
             </CardActionArea>
