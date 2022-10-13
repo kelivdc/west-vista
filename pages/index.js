@@ -167,6 +167,7 @@ function Index() {
               Promo cara bayar KPA :<br />
               DP 5% / 10% 1x
               <br />
+              Pilih interior selera Anda sendiri
             </Typography>
           </Container>
         </Box>
