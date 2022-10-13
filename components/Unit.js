@@ -17,12 +17,17 @@ function Unit() {
         container
         spacing={2}
         alignContent="center"
+        alignSelf="center"
         sx={{
           maxWidth: {
             xs: "100%",
             md: "80%",
           },
-          margin: "auto",
+          margin: {
+            xs: "auto",
+            md: "auto"
+          },
+          padding: "5px"
         }}
       >
         <Grid item xs={12} md={4}>
