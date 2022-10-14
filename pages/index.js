@@ -175,6 +175,19 @@ function Index() {
         <Unit />
         <Gallery />
         <Fasilitas />
+        <Box mt="20px" fontWeight="bold" align="center">
+              Hubungi<br />
+              <Button
+            
+              color="success"
+              variant="contained"
+              endIcon={<WhatsApp />}
+              onClick={handleWA}
+            >
+              Ira 0812 2222 6880
+            </Button>
+            </Box>
+            
         <Footer />
         <NavBottom />
       </React.Fragment>
