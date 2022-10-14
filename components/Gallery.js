@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 function Gallery() {
   const itemData = [
-    { img: "/images/gallery/1room1.png" },
+    { img: "/images/gallery/1room1.png", alt: "1 Bed" },
     { img: "/images/gallery/1room2.png" },
     { img: "/images/gallery/1room3.png" },
     { img: "/images/gallery/2room1.png" },
@@ -54,13 +54,13 @@ function Gallery() {
         }}
       >
         {itemData.map((item) => (
-          <Grid item xs={6} md={4}>
+          <Grid item xs={6} md={4} key={item.img}>
             <Image
               src={item.img}
               layout="responsive"
               width={1180}
               height={614}
-              alt="Cluster Studio"
+              alt="West Vista"
               onClick={() => handleClick(item.img)}
             />
           </Grid>
