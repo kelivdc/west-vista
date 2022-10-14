@@ -10,6 +10,7 @@ import Unit from "../components/Unit";
 import VideoBanner from "../components/Video";
 import Fasilitas from "../components/Fasilitas";
 import { WhatsApp } from "@mui/icons-material";
+import Gallery from "../components/Gallery";
 
 function Index() {
   const [mnuDrawer, setMnuDrawer] = useState(false);
@@ -173,6 +174,7 @@ function Index() {
           </Container>
         </Box>
         <Unit />
+        <Gallery />
         <VideoBanner />
         <Fasilitas />
         <Footer />

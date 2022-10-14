@@ -20,7 +20,7 @@ function Video() {
         marginwidth="0px"
         height="600px"
         width="100%"
-        allowfullscreen=""
+        allowFullscreen=""
       />
     </Box>
   )
