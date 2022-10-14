@@ -34,11 +34,11 @@ function Unit() {
           <Card>
             <CardActionArea>
               <Image
-                src="/images/studio.jpg"
+                src="/images/studio.png"
                 layout="responsive"
-                width={1400}
-                height={580}
-                alt="Cluster Studio"
+                width={1180}
+                height={614}
+                alt="Studio"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -55,10 +55,10 @@ function Unit() {
           <Card>
             <CardActionArea>
               <Image
-                src="/images/1bedroom.jpg"
+                src="/images/1bedroom.png"
                 layout="responsive"
-                width={1400}
-                height={580}
+                width={1180}
+                height={614}
                 alt="Cluster Studio"
               />
               <CardContent>
@@ -76,11 +76,11 @@ function Unit() {
           <Card>
             <CardActionArea>
               <Image
-                src="/images/2bedroom.jpg"
+                src="/images/2bedroom.png"
                 layout="responsive"
-                width={1400}
-                height={580}
-                alt="Cluster Studio"
+                width={1180}
+                height={614}
+                alt="2 Bedroom"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
