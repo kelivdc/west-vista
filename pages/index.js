@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import CssBaseline from "@mui/material/CssBaseline";
-import {
-  Chip,
-  Typography,
-} from "@mui/material";
+import { Button, Chip, Typography } from "@mui/material";
 import Head from "next/head";
 import { Box, Container } from "@mui/system";
 import Image from "next/image";
@@ -12,6 +9,7 @@ import NavBottom from "../components/NavBottom";
 import Unit from "../components/Unit";
 import VideoBanner from "../components/Video";
 import Fasilitas from "../components/Fasilitas";
+import { WhatsApp } from "@mui/icons-material";
 
 function Index() {
   const [mnuDrawer, setMnuDrawer] = useState(false);
@@ -77,10 +75,10 @@ function Index() {
         </Box>
         <Box
           position="absolute"
-          sx={{            
+          sx={{
             marginTop: "-30px",
           }}
-          mx="auto"          
+          mx="auto"
         >
           <Typography
             align="center"
@@ -95,27 +93,28 @@ function Index() {
             p={1}
             color="#222"
           >
-            Apartemen Modern</Typography>
+            Apartemen Modern
+          </Typography>
         </Box>
         <Typography
-            align="center"
-            sx={{
-              typography: {
-                xs: "h6",
-                md: "h5",
-              },
-              color: "#fff",
-              bgcolor: "#ff6a00",
-              maxWidth: "200px",
-              borderRadius: "15px"
-            }}
-            mt={4}
-            mx="auto"
-            p={1}
-            color="#222"
-
-          >
-            Harga 600jt an</Typography>
+          align="center"
+          sx={{
+            typography: {
+              xs: "h6",
+              md: "h5",
+            },
+            color: "#fff",
+            bgcolor: "#ff6a00",
+            maxWidth: "200px",
+            borderRadius: "15px",
+          }}
+          mt={4}
+          mx="auto"
+          p={1}
+          color="#222"
+        >
+          Harga 600jt an
+        </Typography>
         <Box p={1}>
           <Container
             sx={{
@@ -132,15 +131,17 @@ function Index() {
               Vista menawarkan kehidupan yang optimal di mana rasa kebersamaan
               dan perasaan kesendirian dapat saling muncul.
             </Typography>
-            <Box mt="20px" fontWeight="bold">Kemudahan Pembayaran</Box>
-            <Typography component="div" mt="20px">
-              <Chip
-                label="Hanya DP 10%"
-                color="success"
-                align="center"
-                sx={{ fontWeight: "bold", fontSize: "16px" }}
-              />
-            </Typography>
+            <Box mt="20px" fontWeight="bold">
+              Hubungi
+            </Box>
+            <Button
+              color="success"
+              variant="contained"
+              endIcon={<WhatsApp />}
+              onClick={handleWA}
+            >
+              Ira 0812 2222 6880
+            </Button>
           </Container>
         </Box>
         <Box p={1}>
@@ -154,24 +155,24 @@ function Index() {
               position: "relative",
               maxWidth: {
                 xs: "100%",
-                md: "50%"
-              }
+                md: "50%",
+              },
             }}
           >
-            <Box bgcolor="#66b566" color="#fff" p={1} align="center">PROMO BULAN INI</Box>
+            <Box bgcolor="#66b566" color="#fff" p={1} align="center">
+              PROMO BULAN INI
+            </Box>
             <Typography align="center" mt="10px" color="#222">
-              FREE PPN
+              Free full furnished (New Concept)
               <br />
-              New Concept Fully Furnished
+              Free biaya akad
               <br />
-              Promo cara bayar KPA :<br />
-              DP 5% / 10% 1x
+              Free IPL
               <br />
-              Pilih interior selera Anda sendiri
             </Typography>
           </Container>
         </Box>
-        <Unit />        
+        <Unit />
         <VideoBanner />
         <Fasilitas />
         <Footer />
