@@ -7,7 +7,6 @@ import Image from "next/image";
 import Footer from "../components/Footer";
 import NavBottom from "../components/NavBottom";
 import Unit from "../components/Unit";
-import VideoBanner from "../components/Video";
 import Fasilitas from "../components/Fasilitas";
 import { WhatsApp } from "@mui/icons-material";
 import Gallery from "../components/Gallery";
@@ -175,7 +174,6 @@ function Index() {
         </Box>
         <Unit />
         <Gallery />
-        <VideoBanner />
         <Fasilitas />
         <Footer />
         <NavBottom />
