@@ -96,6 +96,20 @@ function Index() {
             Apartemen Modern
           </Typography>
         </Box>
+        <div
+          style={{
+            marginTop: "30px",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <Image
+            src="/images/cicilan.jpeg"
+            width={320}
+            height={680}
+            alt="Cicilan"
+          />
+        </div>
         <Typography
           align="center"
           sx={{
@@ -144,6 +158,20 @@ function Index() {
             </Button>
           </Container>
         </Box>
+        <div
+          style={{
+            marginTop: "30px",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <Image
+            src="/images/bca-green-mark.jpeg"
+            width={620}
+            height={680}
+            alt="BCA"
+          />
+        </div>
         <Box p={1}>
           <Container
             sx={{
@@ -172,6 +200,20 @@ function Index() {
             </Typography>
           </Container>
         </Box>
+        <div
+          style={{
+            marginTop: "30px",
+            display: "flex",            
+            justifyContent: "center",
+          }}
+        >
+         <video style={{ width: '100%', maxWidth: "640px" }} controls>
+          <source src="/west-vista.mp4" type="video/mp4" />
+        </video>
+
+        </div>
+
+
         <Unit />
         <Gallery />
         <Fasilitas />
