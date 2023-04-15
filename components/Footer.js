@@ -7,7 +7,7 @@ function Footer() {
         <Typography align="center" color="#ccc">
             <div>Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11750</div>
             <hr size="1" />
-            <div>Copyright ©2022. All rights reserved</div>
+            <div>Copyright ©2023. All rights reserved</div>
         </Typography>
     </Box>
   )

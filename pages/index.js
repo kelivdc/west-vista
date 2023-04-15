@@ -27,7 +27,7 @@ function Index() {
   return (
     <>
       <Head>
-        <title>West Vista apartemen - Fully Furnished</title>
+        <title>West Vista Apartemen - Fully Furnished</title>
         <meta
           name="description"
           content="Apartemen baru daerah Jakarta Barat DKI Jakarta, harga mulai 600jtan"
@@ -176,18 +176,18 @@ function Index() {
         <Gallery />
         <Fasilitas />
         <Box mt="20px" fontWeight="bold" align="center">
-              Hubungi<br />
-              <Button
-            
-              color="success"
-              variant="contained"
-              endIcon={<WhatsApp />}
-              onClick={handleWA}
-            >
-              Ira 0812 2222 6880
-            </Button>
-            </Box>
-            
+          Hubungi
+          <br />
+          <Button
+            color="success"
+            variant="contained"
+            endIcon={<WhatsApp />}
+            onClick={handleWA}
+          >
+            Ira 0812 2222 6880
+          </Button>
+        </Box>
+
         <Footer />
         <NavBottom />
       </React.Fragment>
