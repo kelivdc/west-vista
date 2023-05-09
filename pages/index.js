@@ -127,7 +127,7 @@ function Index() {
           p={1}
           color="#222"
         >
-          Harga 600jt an
+          Harga 570jt an
         </Typography>
         <Box p={1}>
           <Container

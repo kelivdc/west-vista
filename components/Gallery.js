@@ -4,14 +4,22 @@ import React, { useState } from "react";
 
 function Gallery() {
   const itemData = [
-    { img: "/images/gallery/1room1.png", alt: "1 Bed" },
-    { img: "/images/gallery/1room2.png" },
-    { img: "/images/gallery/1room3.png" },
-    { img: "/images/gallery/2room1.png" },
-    { img: "/images/gallery/2room2.png" },
-    { img: "/images/gallery/2room3.png" },
-    { img: "/images/gallery/kidroom.png" },
-    { img: "/images/gallery/masterroom.png" },
+    { img: "/images/West-studio1.png", alt: "1 Bed" },
+    { img: "/images/West-studio2.png" },
+    { img: "/images/West-studio3.png" },
+    { img: "/images/West-studio4.png" },
+    { img: "/images/West-1bedroom1.png" },
+    { img: "/images/West-1bedroom2.png" },
+    { img: "/images/West-1bedroom3.png" },
+    { img: "/images/West-1bedroom4.png" },
+    { img: "/images/West-2bedroom1.png" },
+    { img: "/images/West-2bedroom2.png" },
+    // { img: "/images/gallery/1room3.png" },
+    // { img: "/images/gallery/2room1.png" },
+    // { img: "/images/gallery/2room2.png" },
+    // { img: "/images/gallery/2room3.png" },
+    // { img: "/images/gallery/kidroom.png" },
+    // { img: "/images/gallery/masterroom.png" },
   ];
   const [img, setImg] = useState("");
 
@@ -58,8 +66,8 @@ function Gallery() {
             <Image
               src={item.img}
               layout="responsive"
-              width={1180}
-              height={614}
+              width={1600}
+              height={1200}
               alt="West Vista"
               onClick={() => handleClick(item.img)}
             />
