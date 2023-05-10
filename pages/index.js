@@ -129,6 +129,25 @@ function Index() {
         >
           Harga 570jt an
         </Typography>
+        <Typography
+          align="center"
+          sx={{
+            typography: {
+              xs: "h6",
+              md: "h5",
+            },
+            color: "#fff",
+            bgcolor: "#0000ff",
+            maxWidth: "200px",
+            borderRadius: "15px",
+          }}
+          mt={4}
+          mx="auto"
+          p={1}
+          color="#222"
+        >
+          Harga 499jt* an - Limited stok, sisa 3 unit
+        </Typography>
         <Box p={1}>
           <Container
             sx={{
