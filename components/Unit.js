@@ -55,7 +55,7 @@ function Unit() {
           <Card>
             <CardActionArea>
               <Image
-                src="/images/West-1bedroom3.png"
+                src="/images/West-1bedroom-layout.png"
                 layout="responsive"
                 width={1180}
                 height={614}

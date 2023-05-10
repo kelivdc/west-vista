@@ -146,7 +146,9 @@ function Index() {
           p={1}
           color="#222"
         >
-          Harga 499jt* an - Limited stok, sisa 3 unit
+          Harga 499jt*<br />
+          Limited Stok<br />
+          Sisa 3 unit
         </Typography>
         <Box p={1}>
           <Container
