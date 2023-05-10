@@ -1,4 +1,5 @@
 import { Box, Container } from "@mui/material";
+import Image from "next/image";
 import React from "react";
 
 function Fasilitas() {
@@ -18,6 +19,20 @@ function Fasilitas() {
           },
         }}
       >
+        <div
+          style={{
+            marginTop: "30px",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <Image
+            src="/images/fasilitas.png"
+            width={620}
+            height={680}
+            alt="BCA"
+          />
+        </div>
         <Box color="#fff" p={1} align="center">
           FASILITAS
           <br />
