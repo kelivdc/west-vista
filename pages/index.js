@@ -110,7 +110,7 @@ function Index() {
             alt="Cicilan"
           />
         </div>
-        <Typography
+        {/* <Typography
           align="center"
           sx={{
             typography: {
@@ -128,7 +128,7 @@ function Index() {
           color="#222"
         >
           Harga 570jt an
-        </Typography>
+        </Typography> */}
         <Typography
           align="center"
           sx={{
