@@ -34,7 +34,7 @@ function Unit() {
           <Card>
             <CardActionArea>
               <Image
-                src="/images/studio.png"
+                src="/images/West-studio1.png"
                 layout="responsive"
                 width={1180}
                 height={614}
@@ -55,7 +55,7 @@ function Unit() {
           <Card>
             <CardActionArea>
               <Image
-                src="/images/1bedroom.png"
+                src="/images/West-1bedroom3.png"
                 layout="responsive"
                 width={1180}
                 height={614}
@@ -76,7 +76,7 @@ function Unit() {
           <Card>
             <CardActionArea>
               <Image
-                src="/images/2bedroom.png"
+                src="/images/West-2bedroom1.png"
                 layout="responsive"
                 width={1180}
                 height={614}

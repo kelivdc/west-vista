@@ -231,7 +231,20 @@ function Index() {
         </video>
 
         </div>
-
+        <div
+          style={{
+            marginTop: "30px",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <Image
+            src="/images/foto-awal1.png"
+            width={1000}
+            height={680}
+            alt="West Vista"
+          />
+        </div>
 
         <Unit />
         <Gallery />
