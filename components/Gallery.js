@@ -87,7 +87,7 @@ function Gallery() {
         onClose={handleClose}       
       >
         <Box style={style}>
-          <Image src={img} width={1180} height={614} onClick={handleClose} />
+          <Image src={img} width={1180} height={614} onClick={handleClose} alt="Image"/>
         </Box>
       </Modal>
     </>

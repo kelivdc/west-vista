@@ -19,7 +19,7 @@ function Fasilitas() {
           },
         }}
       >
-        <div
+        <Box
           style={{
             marginTop: "30px",
             display: "flex",
@@ -32,7 +32,7 @@ function Fasilitas() {
             height={680}
             alt="BCA"
           />
-        </div>
+        </Box>
         <Box color="#fff" p={1} align="center">
           FASILITAS
           <br />

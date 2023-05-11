@@ -34,10 +34,9 @@ function Index() {
         />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
-      <React.Fragment>
         <CssBaseline />
         <Box p={2} margin="auto" mt="20px">
-          <div
+          <Box
             style={{
               display: "flex",
               justifyContent: "center",
@@ -49,7 +48,7 @@ function Index() {
               height={58}
               alt="Logo West Vista"
             />
-          </div>
+          </Box>
         </Box>
         <Box
           p={{
@@ -59,7 +58,7 @@ function Index() {
           margin="auto"
           mt="20px"
         >
-          <div
+          <Box
             style={{
               display: "flex",
               justifyContent: "center",
@@ -71,7 +70,7 @@ function Index() {
               height={591}
               alt="Logo West Vista"
             />
-          </div>
+          </Box>
         </Box>
         <Box
           position="absolute"
@@ -96,7 +95,7 @@ function Index() {
             Apartemen Modern
           </Typography>
         </Box>
-        <div
+        <Box
           style={{
             marginTop: "30px",
             display: "flex",
@@ -109,7 +108,7 @@ function Index() {
             height={680}
             alt="Cicilan"
           />
-        </div>
+        </Box>
         {/* <Typography
           align="center"
           sx={{
@@ -159,7 +158,7 @@ function Index() {
               borderRadius: "15px",
             }}
           >
-            <Typography component="div">
+            <Typography component="Box">
               Dikembangkan oleh Keppel Land, seorang warga Singapura pemenang
               penghargaan pengembang, bekerja sama dengan konsultan yang diakui
               secara internasional dari Spanyol dan Singapura, The Crest West
@@ -179,7 +178,7 @@ function Index() {
             </Button>
           </Container>
         </Box>
-        <div
+        <Box
           style={{
             marginTop: "30px",
             display: "flex",
@@ -192,7 +191,7 @@ function Index() {
             height={680}
             alt="BCA"
           />
-        </div>
+        </Box>
         <Box p={1}>
           <Container
             sx={{
@@ -221,7 +220,7 @@ function Index() {
             </Typography>
           </Container>
         </Box>
-        <div
+        <Box
           style={{
             marginTop: "30px",
             display: "flex",            
@@ -232,8 +231,8 @@ function Index() {
           <source src="/west-vista.mp4" type="video/mp4" />
         </video>
 
-        </div>
-        <div
+        </Box>
+        <Box
           style={{
             marginTop: "30px",
             display: "flex",
@@ -246,7 +245,7 @@ function Index() {
             height={680}
             alt="West Vista"
           />
-        </div>
+        </Box>
 
         <Unit />
         <Gallery />
@@ -266,7 +265,6 @@ function Index() {
 
         <Footer />
         <NavBottom />
-      </React.Fragment>
     </>
   );
 }
