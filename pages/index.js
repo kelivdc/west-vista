@@ -34,6 +34,7 @@ function Index() {
         />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
+      <React.Fragment>
         <CssBaseline />
         <Box p={2} margin="auto" mt="20px">
           <Box
@@ -50,7 +51,7 @@ function Index() {
             />
           </Box>
         </Box>
-        <Box
+         <Box
           p={{
             sx: { xs: 0, md: 4 },
           }}
@@ -108,26 +109,7 @@ function Index() {
             height={680}
             alt="Cicilan"
           />
-        </Box>
-        {/* <Typography
-          align="center"
-          sx={{
-            typography: {
-              xs: "h6",
-              md: "h5",
-            },
-            color: "#fff",
-            bgcolor: "#ff6a00",
-            maxWidth: "200px",
-            borderRadius: "15px",
-          }}
-          mt={4}
-          mx="auto"
-          p={1}
-          color="#222"
-        >
-          Harga 570jt an
-        </Typography> */}
+        </Box>      
         <Typography
           align="center"
           sx={{
@@ -158,7 +140,7 @@ function Index() {
               borderRadius: "15px",
             }}
           >
-            <Typography component="Box">
+            <Typography component="div">
               Dikembangkan oleh Keppel Land, seorang warga Singapura pemenang
               penghargaan pengembang, bekerja sama dengan konsultan yang diakui
               secara internasional dari Spanyol dan Singapura, The Crest West
@@ -265,6 +247,7 @@ function Index() {
 
         <Footer />
         <NavBottom />
+      </React.Fragment>
     </>
   );
 }
