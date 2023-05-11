@@ -154,7 +154,6 @@ function Index() {
               color="success"
               variant="contained"
               endIcon={<WhatsApp />}
-              onClick={handleWA}
             >
               Ira 0812 2222 6880
             </Button>
@@ -239,7 +238,6 @@ function Index() {
             color="success"
             variant="contained"
             endIcon={<WhatsApp />}
-            onClick={handleWA}
           >
             Ira 0812 2222 6880
           </Button>

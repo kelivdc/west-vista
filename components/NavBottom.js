@@ -24,7 +24,7 @@ function NavBottom() {
           icon={<CloudDownload />}
         />
         <BottomNavigationAction label="Lokasi" icon={<LocationOn />} onClick={handleLokasi}/>
-        <BottomNavigationAction label="Hubungi" icon={<WhatsApp />} onClick={handleWA}/>
+        <BottomNavigationAction label="Hubungi" icon={<WhatsApp />} />
       </BottomNavigation>
     </Paper>
   );
