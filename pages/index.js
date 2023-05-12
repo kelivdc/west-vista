@@ -129,8 +129,13 @@ function Index() {
         >
           Harga 499jt*<br />
           Limited Stok<br />
-          Sisa 3 unit
+          Sisa 2 unit
         </Typography>
+        <Typography align="center" mt="10px" color="#222" style={{
+                fontSize: "12px"
+              }}>
+                skb*
+              </Typography>
         <Box p={1}>
           <Container
             sx={{
@@ -192,13 +197,13 @@ function Index() {
               PROMO BULAN INI
             </Box>
             <Typography align="center" mt="10px" color="#222">
-              Free full furnished (New Concept)
+              Furnish (new concept) skb*
               <br />
-              Free biaya akad
+              Free biaya akad*
               <br />
-              Free IPL
-              <br />
-            </Typography>
+              Free IPL*
+              <br />              
+            </Typography>          
           </Container>
         </Box>
         <Box
