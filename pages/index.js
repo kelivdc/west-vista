@@ -215,7 +215,7 @@ function Index() {
           }}
         >
          <video style={{ width: '100%', maxWidth: "640px" }} controls>
-          <source src="/west-vista.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/damatnwia/video/upload/v1686231713/west-vista_iefc1q.mp4" type="video/mp4" />
         </video>
 
         </Box>
