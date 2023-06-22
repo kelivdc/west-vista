@@ -33,6 +33,7 @@ function Index() {
           content="Apartemen baru daerah Jakarta Barat DKI Jakarta, harga mulai 600jtan"
         />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <script src="/tawk.js" async />
       </Head>
       <React.Fragment>
         <CssBaseline />
@@ -250,7 +251,6 @@ function Index() {
             Ira 0812 2222 6880
           </Button>
         </Box>
-
         <Footer />
         <NavBottom />
       </React.Fragment>
